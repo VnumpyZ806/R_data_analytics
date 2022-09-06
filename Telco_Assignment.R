@@ -240,10 +240,8 @@ View(Telco_All_Scaled)
 
 ### Correlation application
 # combinedML<- NPREPROCESSING_redundantFields(Telco_All_Scaled, cutoff=0.95)
-# 21
 
 # combinedML<- NPREPROCESSING_redundantFields(Telco_All_Scaled, cutoff=0.5)
-#27
 
 Telco_Uncorr<- NPREPROCESSING_redundantFields(Telco_All_Scaled, cutoff=0.6) #determine which field correlate to each other 
 # and remove the highly correlated fields as redundant beyond the correlation level of 0.6 # (Ryman-Tubb, 2019)
@@ -343,6 +341,7 @@ View(Classifier_table2)
 
 
 ####
+# What are the potential chances of customer retention. See Predictive model below
 
 Decision_Tree <-rpart::rpart(Churn ~., data=training_data, method = "class")
 summary(Decision_Tree)
