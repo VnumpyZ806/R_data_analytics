@@ -1,5 +1,9 @@
 # ************************************************
 #  MANM354 MACHINE LEARNING & VISUALISATION
+#  1) Overview of the typical customer profile within Telco Dataset
+#  2) Which customers are likey to churn and 
+#  3) What are the potential chances of their retention
+#
 #
 # Vartan Zahorodnykov
 # The Surrey Business School
@@ -48,12 +52,6 @@ myModelFormula<-function(training_data,fieldNameOutput){
 } #endof myModelFormula()
 
 Telco<- NreadDataset("Telco-Customer-Churn.csv") #read the dataset and assign it to the name
-
-###Preprocessing 
-# 1.0 Normalise the data
-#Telco_Normal<- gsub("female", "1", Telco)
-#View(Telco_Normal)
-
 
 ### Data examination
 summary(Telco) # Summary of statistics of each field and & Missing Values detection
@@ -317,7 +315,7 @@ ROC_table<-pROC::coords(ROC_LDAmodel, x="best",best.method="closest.topleft",
                  ret=c("threshold", "specificity",
                        "sensitivity","accuracy",
                        "tn", "tp", "fn", "fp",
-                       "npv","ppv")) #present ROC findins in the table form # (Ryman-Tubb, 2019)
+                       "npv","ppv")) #present ROC findings in the table form # (Ryman-Tubb, 2019)
 
 view(ROC_table)
 
