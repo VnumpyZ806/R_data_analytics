@@ -1,9 +1,5 @@
 # ************************************************
 #  MANM354 MACHINE LEARNING & VISUALISATION
-#  Questions to be answered by the code below are: 
-#  1) Overview of the typical customer profile within Telco Dataset
-#  2) Which customers are likey to churn and 
-#  3) What are the potential chances of their retention
 #
 # Vartan Zahorodnykov
 # The Surrey Business School
@@ -14,7 +10,7 @@
 # 20 June 2019
 #
 # v1.00
-#upload the library in R studio working environment
+#upload the library
 
 rm(list=ls()) # clears all objects in "global environment"
 cat("\014") # clears console area
@@ -40,10 +36,9 @@ pacman::p_load(char=lovelyLibraries,install = TRUE,character.only = TRUE)
 #library(recipes)
 #library(Hmisc)
 #swirl()
+### Data Visualisation
 
-### Data Visualisation of the dataset fields
-
-source("Debugged_Telco_Prep_Functions.R") # Source of the code script
+source("Debugged_Telco_Prep_Functions.R")
 
 myModelFormula<-function(training_data,fieldNameOutput){
   inputs<-paste(names(training_data)[which(names(training_data)!=fieldNameOutput)],collapse = "+")
@@ -54,11 +49,15 @@ myModelFormula<-function(training_data,fieldNameOutput){
 
 Telco<- NreadDataset("Telco-Customer-Churn.csv") #read the dataset and assign it to the name
 
+###Preprocessing 
+# 1.0 Normalise the data
+#Telco_Normal<- gsub("female", "1", Telco)
+#View(Telco_Normal)
+
+
 ### Data examination
 summary(Telco) # Summary of statistics of each field and & Missing Values detection
 #df_status(Telco)
-
-# Dataset exploration and visualisation
 # 1
 Graph1 <- table(Telco$Churn) # The dataset is relatively unbalanced with more than 5140 customers being a non-churn customer against 1860 Churn customers
 barplot(Graph1, main = "Customer Churn ", xlab = "Churn", ylab = "Count", col = rainbow(2))
