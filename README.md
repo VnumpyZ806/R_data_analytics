@@ -33,16 +33,7 @@ Both males and females have the same likelihood to churn
 
 9) Customers without online backup are more likely to churn (around 1100)
 
-10) Customers without security are more likely to churn (around 1500) 
 
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/93555279/191364134-8166895f-ccec-46a1-9ee0-7e14305a0ea6.png">
 
-11) Customers without tech support are more likely to churn (around 1500) 
-
-12) Customers without the device protection are more likely to churn (around 1100) 
-
-13) Customers who don't stream movies are more likely to churn (almost 1000) 
-
-14) Customers who don’t stream TV are as likely to churn as customers who do (almost 1000 vs 900) 
-
-15) Customers who have short monthly contracts are much more likely to churn (around 1700) 
 
