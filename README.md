@@ -14,4 +14,9 @@ are likely to churn
 - Machine_Learning_Report.docx to see the full Word written report on the basis of R analysis
 
 Please see some of the key project visualisations and decision tree analytics below
+
+
+![Customer Churn](https://user-images.githubusercontent.com/93555279/191345994-ec5a0e31-d922-44b7-b306-45252695afa3.png)
+
+
 <img width="941" alt="image" src="https://user-images.githubusercontent.com/93555279/191345197-ec743f4f-e3bd-4ce3-8007-c6d2e4a6909e.png">
