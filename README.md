@@ -6,8 +6,6 @@ Data Analytics Telco project executed at Machine Learning module during the comp
 2) Which customers are likey to churn and 
 3) What are the potential chances of their retention
 #
-#
-#
 Please refer to:
 - Telco-Customer-Churn.csv to see the original data
 - Telco_Assignment.R and Debugged_Telco_prep_Functions.R files to see the R code script used to interrogate the data in the file, visualise it, and built a predictive model on which customers are likely to churn
