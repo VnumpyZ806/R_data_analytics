@@ -36,13 +36,13 @@ Both males and females have the same likelihood to churn
 #
 ![image](https://user-images.githubusercontent.com/93555279/191347793-ded5fef7-08b1-43ae-9eb5-1a350c671e74.png)
 
-9) Customers without online backup are more likely to churn (around 1100)
+Customers without online backup are more likely to churn (around 1100)
 #
 #
 #
-Decision Tree
+Decision Tree**
 ![image](https://user-images.githubusercontent.com/93555279/191364494-af707e8d-ad6e-4cf0-ba83-15bd15f13ad4.png)
 
-The main advantages of decision tree algorithm are its feature categorisation simplicity, plain visualisation sight
+The main advantages of decision tree algorithm are a feature categorisation simplicity and a plain visualisation sight
 
 
