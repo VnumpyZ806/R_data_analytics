@@ -51,9 +51,14 @@ myModelFormula<-function(training_data,fieldNameOutput){
   return(formular)
 } #endof myModelFormula()
 
-Telco<- NreadDataset("Telco-Customer-Churn.csv") #read the dataset and assign it to the name
+NreadDataset<-function(csvFilename){
+  dataset<-read.csv(csvFilename,encoding="Telco-Customer-Churn.csv",stringsAsFactors = FALSE)
+  print(paste("CSV dataset",csvFilename,"has been read. Records=",nrow(dataset)))
+  return(dataset)
+} #Ryman-Tubb 2019
 
-### Data examination
+Telco<- read.csv(file.choose("Telco-Customer-Churn.csv"), header=T)
+
 summary(Telco) # Summary of statistics of each field and & Missing Values detection
 #df_status(Telco)
 # 1
