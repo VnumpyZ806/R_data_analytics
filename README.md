@@ -28,6 +28,7 @@ Both males and females have the same likelihood to churn
 
 
 
+![image](https://user-images.githubusercontent.com/93555279/191347793-ded5fef7-08b1-43ae-9eb5-1a350c671e74.png)
 
 
 9) Customers without online backup are more likely to churn (around 1100)
