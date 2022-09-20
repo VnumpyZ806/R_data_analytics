@@ -19,12 +19,12 @@ Please see some of the key project visualisations and decision tree analytics be
 ![Customer Churn](https://user-images.githubusercontent.com/93555279/191345994-ec5a0e31-d922-44b7-b306-45252695afa3.png)
 
 The dataset is relatively unbalanced with more than 5140 customers being a non-churn customer against 1860 Churn customers
-
-
-
-
-
-
+#
+#
+#
+#
+#
+#
 <img width="941" alt="image" src="https://user-images.githubusercontent.com/93555279/191345197-ec743f4f-e3bd-4ce3-8007-c6d2e4a6909e.png">
 
 Customers who use electronic check as a Payment method are much more likely to churn (around 1050). 
