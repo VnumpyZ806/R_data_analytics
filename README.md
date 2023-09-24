@@ -3,7 +3,7 @@
 
 Data Analytics Telco project executed at Machine Learning module during the completion of MSc Business Analytics degree. The objectives of the project are as follows:
 1) Overview of the typical customer profile within Telco-Customer-Churn.csv dataset
-2) Which customers are likey to churn and 
+2) Which customers are likely to churn and 
 3) What are the potential chances of their retention
 #
 Please refer to:
